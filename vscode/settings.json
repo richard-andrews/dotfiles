@@ -1,0 +1,25 @@
+{
+    "workbench.colorTheme": "Atom One Darker",
+    "workbench.iconTheme": "material-icon-theme",
+    
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+     
+    "git.autofetch": true,
+    "git.suggestSmartCommit": false,
+    
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "switch:command",
+        "branch-create:command"
+    ],
+    
+    "cSpell.language": "en-GB",
+    "cSpell.enabledFileTypes": {
+        "*": true,
+        "json": false,
+        "go": false,
+        "jsonc": false
+    }
+}

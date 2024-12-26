@@ -1,0 +1,15 @@
+[push]
+    autosetupremote=true
+
+[pull]
+    rebase=false
+
+[user]
+    email=richardxndrews@gmail.com
+    name=Richard Andrews
+
+[github]
+    user=richard-andrews
+
+[safe]
+    directory=~/Projects
