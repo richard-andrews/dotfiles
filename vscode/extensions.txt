@@ -1,0 +1,3 @@
+christopherafbjur.vscode-theme-onedarker
+eamodio.gitlens
+pkief.material-icon-theme

@@ -1,0 +1,13 @@
+[core]
+	editor = \"C:\\Users\\rhand\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[push]
+	autoSetupRemote = true
+[credential]
+	helper = wincred
+[user]
+	name = Richard Andrews
+	email = richardxndrews@gmail.com
+[github]
+	user = richard-andrews
+[alias]
+	cleanup = !git fetch --prune && git branch -vv | grep \": gone]\" | awk \"{print \\$1}\" | xargs -r git branch -D

@@ -1,0 +1,7 @@
+# ~/.bashrc
+export MSYS=winsymlinks:nativestrict
+
+# Launch Zsh
+if [ -t 1 ]; then
+  exec zsh
+fi

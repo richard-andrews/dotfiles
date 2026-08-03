@@ -1,0 +1,45 @@
+{
+    "cSpell.enabledFileTypes": {
+        "*": true,
+        "go": false,
+        "json": false,
+        "jsonc": false
+    },
+    "cSpell.language": "en-GB",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.suggestSmartCommit": false,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "switch:command",
+        "branch-create:command"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
+        "Command Prompt": {
+            "args": [],
+            "icon": "terminal-cmd",
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ]
+        },
+        "Git Bash": {
+            "args": [
+                "--login",
+                "-i"
+            ],
+            "path": "C:\\Program Files\\Git\\usr\\bin\\bash.exe"
+        },
+        "PowerShell": {
+            "icon": "terminal-powershell",
+            "source": "PowerShell"
+        }
+    },
+    "workbench.colorTheme": "Atom One Darker",
+    "workbench.iconTheme": "material-icon-theme"
+}
