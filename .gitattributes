@@ -1,0 +1,11 @@
+# Force LF line endings for shell/zsh files regardless of platform
+*.zsh text eol=lf
+.zshrc text eol=lf
+.bashrc text eol=lf
+.bash_profile text eol=lf
+.gitconfig text eol=lf
+.aliases.zsh text eol=lf
+.p10k.zsh text eol=lf
+install.sh text eol=lf
+install-scoop.sh text eol=lf
+install-vscode.sh text eol=lf
